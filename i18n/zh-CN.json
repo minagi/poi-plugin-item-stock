@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "name": "道具库存",
+        "description": "常用消耗品一览（含家具兑换计算）"
+    },
+    "root": {
+        "tabs": {
+            "common": "常用"
+        }
+    },
+    "translate": {
+        "useItems": {}
+    },
+    "tabs": {
+        "common": {
+            "furnitureAmount": {
+                "1x": {
+                    "header": "{{number}}x",
+                    "value": "= {{value}}"
+                },
+                "10x": {
+                    "header": "{{number}}x",
+                    "value": "= {{value}}"
+                },
+                "half": {
+                    "header": "半数({{number}})",
+                    "value": "= {{value}}"
+                },
+                "full": {
+                    "header": "总数({{number}})",
+                    "value": "= {{value}}"
+                }
+            },
+            "favouriteButton": {
+                "text": "收藏",
+                "undo": "取消收藏"
+            }
+        }
+    }
+}

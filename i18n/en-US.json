@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "name": "Use Items",
+        "description": "Common consumables overview (with furniture conversion)"
+    },
+    "root": {
+        "tabs": {
+            "common": "Common"
+        }
+    },
+    "translate": {
+        "useItems": {}
+    },
+    "tabs": {
+        "common": {
+            "furnitureAmount": {
+                "1x": {
+                    "header": "{{number}}x",
+                    "value": "= {{value}}"
+                },
+                "10x": {
+                    "header": "{{number}}x",
+                    "value": "= {{value}}"
+                },
+                "half": {
+                    "header": "Half ({{number}})",
+                    "value": "= {{value}}"
+                },
+                "full": {
+                    "header": "Total ({{number}})",
+                    "value": "= {{value}}"
+                }
+            },
+            "favouriteButton": {
+                "text": "Favourite",
+                "undo": "Undo"
+            }
+        }
+    }
+}

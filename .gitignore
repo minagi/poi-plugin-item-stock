@@ -1,0 +1,10 @@
+node_modules/
+index.js
+views/**/*.js
+redux/**/*.js
+.idea
+.DS_Store
+*.tgz
+*.zip
+dist/
+*.bak
