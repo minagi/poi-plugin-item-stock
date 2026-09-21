@@ -31,6 +31,29 @@
                     "value": "= {{value}}"
                 }
             },
+            "furnitureSupport": {
+                "balance": "家具币：{{current}} / {{cap}}",
+                "balanceUnavailable": "无法获取家具币余额，因此不显示推荐。",
+                "balanceUnavailableShort": "余额未知",
+                "consumeFirst": "没有不会浪费家具币的选项，请先消费家具币。",
+                "consumeFirstShort": "请先消费家具币",
+                "perUnit": "每个家具箱：{{value}}枚家具币",
+                "recommendedShort": "推荐：{{count}}个 (+{{gain}})",
+                "recommendedBadge": "[推荐]",
+                "overall": "家具币 {{current}} / {{cap}} · 最佳安全选择：{{box}} / {{option}} → +{{gain}}（{{after}}）",
+                "options": {
+                    "full": "全部",
+                    "half": "一半",
+                    "ten": "10个"
+                },
+                "columns": {
+                    "option": "选择",
+                    "boxes": "箱数",
+                    "gain": "预计获得",
+                    "after": "开封后",
+                    "discarded": "丢失"
+                }
+            },
             "favouriteButton": {
                 "text": "收藏",
                 "undo": "取消收藏"

@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "道具庫存",
+        "description": "常用消耗品一覽（含家具箱開啟建議）"
+    },
+    "root": {"tabs": {"common": "常用"}},
+    "translate": {"useItems": {}},
+    "tabs": {
+        "common": {
+            "furnitureAmount": {
+                "1x": {"header": "{{number}}個", "value": "= {{value}}"},
+                "10x": {"header": "{{number}}個", "value": "= {{value}}"},
+                "half": {"header": "一半（{{number}}個）", "value": "= {{value}}"},
+                "full": {"header": "全部（{{number}}個）", "value": "= {{value}}"}
+            },
+            "furnitureSupport": {
+                "balance": "家具幣：{{current}} / {{cap}}",
+                "balanceUnavailable": "無法取得家具幣餘額，因此不顯示建議。",
+                "balanceUnavailableShort": "餘額未知",
+                "consumeFirst": "沒有不會浪費家具幣的選項，請先消耗家具幣。",
+                "consumeFirstShort": "請先消耗家具幣",
+                "perUnit": "每個家具箱：{{value}}枚家具幣",
+                "recommendedShort": "建議：{{count}}個 (+{{gain}})",
+                "recommendedBadge": "[建議]",
+                "overall": "家具幣 {{current}} / {{cap}} · 最佳安全選擇：{{box}} / {{option}} → +{{gain}}（{{after}}）",
+                "options": {"full": "全部", "half": "一半", "ten": "10個"},
+                "columns": {"option": "選擇", "boxes": "箱數", "gain": "預計獲得", "after": "開啟後", "discarded": "丟失"}
+            },
+            "favouriteButton": {"text": "收藏", "undo": "取消收藏"}
+        }
+    }
+}

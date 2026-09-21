@@ -31,6 +31,29 @@
                     "value": "= {{value}}"
                 }
             },
+            "furnitureSupport": {
+                "balance": "Furniture coins: {{current}} / {{cap}}",
+                "balanceUnavailable": "Furniture coin balance is unavailable. No recommendation is shown.",
+                "balanceUnavailableShort": "Balance unavailable",
+                "consumeFirst": "No option avoids waste. Spend furniture coins first.",
+                "consumeFirstShort": "Spend coins first",
+                "perUnit": "Per box: {{value}} coins",
+                "recommendedShort": "Recommended: {{count}} (+{{gain}})",
+                "recommendedBadge": "[Recommended]",
+                "overall": "Coins {{current}} / {{cap}} · Best safe choice: {{box}} / {{option}} → +{{gain}} ({{after}})",
+                "options": {
+                    "full": "All",
+                    "half": "Half",
+                    "ten": "10 boxes"
+                },
+                "columns": {
+                    "option": "Choice",
+                    "boxes": "Boxes",
+                    "gain": "Gain",
+                    "after": "After",
+                    "discarded": "Discarded"
+                }
+            },
             "favouriteButton": {
                 "text": "Favourite",
                 "undo": "Undo"

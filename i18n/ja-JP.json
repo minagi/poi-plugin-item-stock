@@ -1,0 +1,51 @@
+{
+    "meta": {
+        "name": "アイテム在庫",
+        "description": "消耗品一覧（家具箱の開封判断支援付き）"
+    },
+    "root": {
+        "tabs": {
+            "common": "一般"
+        }
+    },
+    "translate": {
+        "useItems": {}
+    },
+    "tabs": {
+        "common": {
+            "furnitureAmount": {
+                "1x": {"header": "{{number}}個", "value": "= {{value}}"},
+                "10x": {"header": "{{number}}個", "value": "= {{value}}"},
+                "half": {"header": "半分（{{number}}個）", "value": "= {{value}}"},
+                "full": {"header": "全部（{{number}}個）", "value": "= {{value}}"}
+            },
+            "furnitureSupport": {
+                "balance": "家具コイン：{{current}} / {{cap}}",
+                "balanceUnavailable": "家具コイン残高を取得できないため、推奨を表示しません。",
+                "balanceUnavailableShort": "残高を取得できません",
+                "consumeFirst": "切り捨てなしで開けられる選択肢がありません。先に家具コインを消費してください。",
+                "consumeFirstShort": "先にコインを消費",
+                "perUnit": "1個あたり：{{value}}枚",
+                "recommendedShort": "推奨 {{count}}個（+{{gain}}）",
+                "recommendedBadge": "【推奨】",
+                "overall": "家具コイン {{current}} / {{cap}}・最良の安全策：{{box}} / {{option}} → +{{gain}}（{{after}}）",
+                "options": {
+                    "full": "全部",
+                    "half": "半分",
+                    "ten": "10個"
+                },
+                "columns": {
+                    "option": "選択肢",
+                    "boxes": "開ける箱数",
+                    "gain": "獲得予定",
+                    "after": "開封後",
+                    "discarded": "切り捨て"
+                }
+            },
+            "favouriteButton": {
+                "text": "お気に入り",
+                "undo": "お気に入り解除"
+            }
+        }
+    }
+}

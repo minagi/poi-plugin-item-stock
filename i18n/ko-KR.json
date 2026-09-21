@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "name": "아이템 재고",
+        "description": "소모품 목록 및 가구 상자 개봉 안내"
+    },
+    "root": {"tabs": {"common": "일반"}},
+    "translate": {"useItems": {}},
+    "tabs": {
+        "common": {
+            "furnitureAmount": {
+                "1x": {"header": "{{number}}개", "value": "= {{value}}"},
+                "10x": {"header": "{{number}}개", "value": "= {{value}}"},
+                "half": {"header": "절반 ({{number}}개)", "value": "= {{value}}"},
+                "full": {"header": "전부 ({{number}}개)", "value": "= {{value}}"}
+            },
+            "furnitureSupport": {
+                "balance": "가구 코인: {{current}} / {{cap}}",
+                "balanceUnavailable": "가구 코인 잔액을 확인할 수 없어 추천을 표시하지 않습니다.",
+                "balanceUnavailableShort": "잔액 확인 불가",
+                "consumeFirst": "손실 없이 열 수 있는 선택지가 없습니다. 가구 코인을 먼저 사용하세요.",
+                "consumeFirstShort": "코인을 먼저 사용",
+                "perUnit": "상자 1개당: {{value}} 코인",
+                "recommendedShort": "추천: {{count}}개 (+{{gain}})",
+                "recommendedBadge": "[추천]",
+                "overall": "가구 코인 {{current}} / {{cap}} · 최적의 안전 선택: {{box}} / {{option}} → +{{gain}} ({{after}})",
+                "options": {"full": "전부", "half": "절반", "ten": "10개"},
+                "columns": {"option": "선택", "boxes": "상자", "gain": "획득 예정", "after": "개봉 후", "discarded": "손실"}
+            },
+            "favouriteButton": {"text": "즐겨찾기", "undo": "즐겨찾기 해제"}
+        }
+    }
+}
