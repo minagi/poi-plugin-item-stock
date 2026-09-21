@@ -128,6 +128,7 @@ async function build() {
       contributors: pkg.contributors,
       license: pkg.license,
       repository: pkg.repository,
+      homepage: pkg.homepage,
       peerDependencies: pkg.peerDependencies,
       poiPlugin: pkg.poiPlugin,
     }

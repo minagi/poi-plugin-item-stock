@@ -1,18 +1,24 @@
 {
     "name": "poi-plugin-item-stock",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "道具库存（消耗品一览）plugin for poi",
     "main": "index.js",
     "keywords": [
         "kancolle",
         "poi-plugin"
     ],
-    "repository": "https://github.com/aabbcco/poi-plugin-item-stock.git",
+    "repository": "https://github.com/minagi/poi-plugin-item-stock.git",
+    "homepage": "https://github.com/minagi/poi-plugin-item-stock",
     "author": {
-        "name": "aabbcco",
-        "email": "aabbcco@foxmail.com"
+        "name": "Minagi Tohno",
+        "url": "https://github.com/minagi"
     },
     "contributors": [
+        {
+            "name": "aabbcco",
+            "email": "aabbcco@foxmail.com",
+            "url": "https://github.com/aabbcco"
+        },
         {
             "name": "Greesea",
             "url": "https://github.com/Greesea"

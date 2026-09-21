@@ -9,7 +9,13 @@ const packagePath = path.join(dist, 'package.json')
 assert.ok(fs.existsSync(packagePath), 'dist/package.json is missing')
 
 const pkg = JSON.parse(fs.readFileSync(packagePath, 'utf8'))
+const sourcePkg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'package.json'), 'utf8'))
 assert.equal(pkg.main, 'index.js')
+assert.equal(pkg.version, sourcePkg.version)
+assert.deepEqual(pkg.author, sourcePkg.author)
+assert.deepEqual(pkg.contributors, sourcePkg.contributors)
+assert.equal(pkg.repository, sourcePkg.repository)
+assert.equal(pkg.homepage, sourcePkg.homepage)
 assert.ok(fs.existsSync(path.join(dist, pkg.main)), 'dist package main is missing')
 assert.ok(fs.existsSync(path.join(dist, 'assets', 'images', 'port_skin_1_22.webp')), 'runtime image is missing')
 
